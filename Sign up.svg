@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="736" height="932" viewBox="0 0 736 932">
+  <defs>
+    <clipPath id="clip-Sign_up">
+      <rect width="736" height="932"/>
+    </clipPath>
+  </defs>
+  <g id="Sign_up" data-name="Sign up" clip-path="url(#clip-Sign_up)">
+    <rect width="736" height="932" fill="#d1d1d1"/>
+    <g id="tab-inactive" transform="translate(369 178)">
+      <g id="Rectangle_46" data-name="Rectangle 46" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="200" height="60" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="199" height="59" rx="1.5" fill="none"/>
+      </g>
+      <text id="sign_up-2" data-name="sign up" transform="translate(100 39)" fill="#7f7f7f" font-size="24" font-family="MicrosoftPhagsPa-Bold, Microsoft PhagsPa" font-weight="700"><tspan x="-41.391" y="0">sign up</tspan></text>
+    </g>
+    <g id="tab-active" transform="translate(162 178)">
+      <g id="Rectangle_45" data-name="Rectangle 45" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="200" height="60" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="199" height="59" rx="1.5" fill="none"/>
+      </g>
+      <text id="login" transform="translate(100 39)" fill="rgba(0,0,0,0.5)" font-size="24" font-family="MicrosoftPhagsPa-Bold, Microsoft PhagsPa" font-weight="700"><tspan x="-28.846" y="0">login</tspan></text>
+    </g>
+    <g id="input" transform="translate(162 278.453)">
+      <g id="Rectangle_20" data-name="Rectangle 20" fill="rgba(184,177,177,0)" stroke="#707070" stroke-width="1">
+        <rect width="405" height="60" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="404" height="59" rx="1.5" fill="none"/>
+      </g>
+      <text id="Email" transform="translate(24 36)" fill="#8d8d8d" font-size="18" font-family="Georgia"><tspan x="0" y="0">Email</tspan></text>
+    </g>
+    <g id="input-2" data-name="input" transform="translate(162 367.856)">
+      <g id="Rectangle_20-2" data-name="Rectangle 20" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="405" height="60" rx="2" stroke="none"/>
+        <rect x="0.5" y="0.5" width="404" height="59" rx="1.5" fill="none"/>
+      </g>
+      <text id="password" transform="translate(24 36)" fill="rgba(0,0,0,0.5)" font-size="18" font-family="Georgia"><tspan x="0" y="0">password</tspan></text>
+    </g>
+    <g id="solid-button" transform="translate(162 464.456)">
+      <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(0 72)" fill="none" stroke="#707070" stroke-width="2">
+        <rect width="405" height="60" rx="2" stroke="none"/>
+        <rect x="1" y="1" width="403" height="58" rx="1" fill="none"/>
+      </g>
+      <text id="SIGN_UP-3" data-name="SIGN UP" transform="translate(202.704 111)" fill="rgba(0,0,0,0.5)" font-size="20" font-family="Gadugi"><tspan x="-37.524" y="0">SIGN UP</tspan></text>
+    </g>
+    <text id="forgot_password_" data-name="forgot password?" transform="translate(368.519 637.657)" fill="rgba(0,0,0,0.5)" font-size="18" font-family="Georgia"><tspan x="-71.095" y="0">forgot password?</tspan></text>
+    <g id="or" transform="translate(164 661.728)">
+      <text id="or-2" data-name="or" transform="translate(204.02 19)" fill="rgba(0,0,0,0.5)" font-size="18" font-family="Georgia"><tspan x="-10.384" y="0">or</tspan></text>
+      <line id="Line_12" data-name="Line 12" x2="171" transform="translate(0 13.5)" fill="none" stroke="#42525e" stroke-width="1"/>
+      <line id="Line_13" data-name="Line 13" x2="171" transform="translate(234 13.5)" fill="none" stroke="#42525e" stroke-width="1"/>
+    </g>
+    <g id="facebook-button" transform="translate(164 721)">
+      <g id="Rectangle_43" data-name="Rectangle 43" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="195" height="60" stroke="none"/>
+        <rect x="0.5" y="0.5" width="194" height="59" fill="none"/>
+      </g>
+      <path id="facebook-f" d="M38.441,17.478l.863-5.623h-5.4V8.205c0-1.538.754-3.038,3.17-3.038h2.453V.38A29.913,29.913,0,0,0,35.177,0c-4.443,0-7.348,2.693-7.348,7.569v4.286H22.89v5.623h4.939V31.071h6.079V17.478Z" transform="translate(66.11 14.929)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="google-button" transform="translate(374 721)">
+      <g id="Rectangle_44" data-name="Rectangle 44" fill="none" stroke="#707070" stroke-width="1">
+        <rect width="195" height="60" stroke="none"/>
+        <rect x="0.5" y="0.5" width="194" height="59" fill="none"/>
+      </g>
+      <path id="google" d="M30.57,23.9c0,8.864-6.07,15.172-15.034,15.172A15.536,15.536,0,0,1,15.536,8a14.94,14.94,0,0,1,10.418,4.066l-4.228,4.066c-5.531-5.337-15.817-1.328-15.817,7.4a9.731,9.731,0,0,0,9.628,9.81c6.152,0,8.457-4.41,8.82-6.7h-8.82V21.305h14.79A13.619,13.619,0,0,1,30.57,23.9Z" transform="translate(82 6.929)" fill="none" stroke="#707070" stroke-width="1"/>
+    </g>
+    <g id="Rectangle_47" data-name="Rectangle 47" transform="translate(265 104)" fill="none" stroke="#707070" stroke-width="1">
+      <rect width="200" height="41" stroke="none"/>
+      <rect x="0.5" y="0.5" width="199" height="40" fill="none"/>
+    </g>
+    <text id="Smart_Learn" data-name="Smart Learn" transform="translate(311.5 114.5)" fill="rgba(0,0,0,0.5)" font-size="18" font-family="Georgia"><tspan x="3.201" y="17">Smart Learn</tspan></text>
+    <g id="Rectangle_48" data-name="Rectangle 48" transform="translate(639 23)" fill="#b8b1b1" stroke="#707070" stroke-width="1">
+      <rect width="54" height="48" stroke="none"/>
+      <rect x="0.5" y="0.5" width="53" height="47" fill="none"/>
+    </g>
+    <text id="X" transform="translate(666 57)" fill="rgba(0,0,0,0.5)" font-size="29" font-family="Georgia"><tspan x="-10.302" y="0">X</tspan></text>
+    <g id="Rectangle_49" data-name="Rectangle 49" transform="translate(164 457)" fill="rgba(255,255,255,0)" stroke="#707070" stroke-width="1">
+      <rect width="403" height="60" stroke="none"/>
+      <rect x="0.5" y="0.5" width="402" height="59" fill="none"/>
+    </g>
+    <text id="Reenter_password" data-name="Reenter password" transform="translate(186 475)" fill="rgba(0,0,0,0.5)" font-size="18" font-family="Georgia"><tspan x="1.554" y="17">Reenter password</tspan></text>
+    <rect id="Rectangle_37" data-name="Rectangle 37" width="176" height="5" rx="1" transform="translate(381 233)" fill="#7f7f7f"/>
+  </g>
+</svg>
