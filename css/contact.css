@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+}
+.link {
+    cursor: pointer;
+}
+.link {
+    color: black;
+}
+.link:visited {
+    color: white;
+}
+.footer .link:hover {
+    border-bottom: 2px solid black;
+}
+
+
+.header {
+    background-color: #8ab2e2;  ;    
+    padding: 2em;
+}
+.header__visible {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+@media (max-width:350px) {
+    .header__visible * {
+        width: 90%;
+    }
+    .header__visible__probtn__btn {
+        height: min-content;
+        margin: auto 0;
+    }
+    * {
+        overflow-x: hidden;
+    }
+}
+.header__visible__probtn {
+    display: flex;
+    gap: 0.5em;
+}
+.header__invisible__form {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.header__visible1--none{
+    display: none;
+}
+.header__visible__probtn__btn, 
+.header__invisible_form__btn {
+    background-color: #8ab2e2;  ;
+}
+@media (min-width: 750px) { 
+    .header__visible {
+        align-items: stretch;
+    }
+    
+    .header__visible__probtn__btn {
+        display: none;
+    }
+    .header__visible__probtn {
+        display: flex;
+        align-items: center;
+    }
+    .header__visible1--none{
+        display: block;
+    }
+    .header__invisible__form{
+        display: none;
+    }
+   
+}
+.display-none {
+    display: none;
+}
+.body {
+    background-color: wheat;
+    max-width: 1350px;
+    margin: auto;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2  ;
+    padding: 1em;
+    max-width: 700px;
+}
+.form__con__item{
+    width: 90%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+.form__text_area {
+    width: 90%;
+    text-align: left;
+    padding: 0.5em;
+}
+.form__btn {
+    margin-top: 1em;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    background-color: #338336;
+    color: white;
+}
+@media (min-width:430px) {
+    .form {
+        width: 90%;
+        margin: auto;
+        
+    }
+    .form__con {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "name email"
+        "phone address"
+        "message message";
+        justify-items: center;
+    }
+    .form__text_area {
+        grid-area: message;
+        width: 94%;
+    }
+    .form__con__item {
+        width: 90%;
+    }
+   
+}
+.faq {
+    margin: 2em 0;
+}
+.faq__item {
+        padding: 0.5em ;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 1em;
+        background-color: #8ab2e2;
+}
+@media (min-width:759px) {
+   .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    gap: 3em;
+    align-items: flex-start;
+    margin: 3em auto;
+   } 
+   .faq {
+    margin: auto;
+   }
+   .form {
+    width: 55vw;
+   }
+   .faq {
+    width: 45vw;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin: auto;  
+    padding: 2em;
+    background-color: #8ab2e2;    
+
+    margin: auto;
+}
+.footer-nav:hover,
+.footer-nav:focus,
+.footer__grid-item--partners__partner:hover,
+.footer__grid-item--partners__partner:focus {
+    background-color: #8ab2e2;
+    border-bottom: 3px solid black;
+}
+.footer__grid-item--follow__social:hover,
+.footer__grid-item--follow__social:focus {
+    background-color: black;
+}
+.footer__grid-item--partners {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "header header";
+}
+.footer__grid-item--follow__social {
+    padding: 3px;
+}
+.footer__grid-item {
+    padding: 1em;
+}
+.footer__grid-item--partners__header {
+    padding-top: 0;
+    grid-area: header;
+}
+
+@media screen and (orientation: landscape) and (min-width:768px) {
+  
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .footer__grid-item--follow {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px;
+    }
+    .footer__grid-item--follow__h {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+   
+}

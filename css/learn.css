@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+}
+
+.link {
+    cursor: pointer;
+}
+.link {
+    color: black;
+}
+.link:visited {
+    color: white;
+}
+.footer .link:hover {
+    border-bottom: 2px solid black;
+}
+.body {
+    background-color: wheat;
+    max-width: 1350px;
+    margin: auto;
+}
+.header {
+    background-color: #8ab2e2;    
+    padding: 2em;
+}
+.header__visible {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+@media (max-width:350px) {
+    .header__visible * {
+        width: 90%;
+    }
+    .header__visible__probtn__btn {
+        height: min-content;
+        margin: auto 0;
+    }
+    * {
+        overflow-x: hidden;
+    }
+}
+.header__visible__probtn {
+    display: flex;
+    gap: 0.5em;
+}
+.header__invisible__form {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.header__visible1--none{
+    display: none;
+}
+.header__visible__probtn__btn, 
+.header__invisible_form__btn {
+    background-color: #8ab2e2;
+}
+@media (min-width: 750px) { 
+    .header__visible {
+        align-items: stretch;
+    }
+    
+    .header__visible__probtn__btn {
+        display: none;
+    }
+    .header__visible__probtn {
+        display: flex;
+        align-items: center;
+    }
+    .header__visible1--none{
+        display: block;
+    }
+    .header__invisible__form{
+        display: none;
+    }
+   
+}
+.display-none {
+    display: none;
+}
+.chapter-btn {
+    background-color: aqua;
+}
+.chapter-btn {
+    display: flex;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin: 1em;
+    margin-left: 3em;
+    background-color: orange;
+    cursor: pointer;
+
+}
+.nav {
+    width: 80%;
+    margin: auto;
+}
+.nav__li {
+    background-color: #8ab2e2;
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+}
+.nav__li a {
+    color: black;
+}
+.nav__li:hover,
+.nav__li:focus {
+    background-color: #8ab2e210 ;
+    border: 2px solid black;
+}
+
+
+.section1 {
+    margin: 1em;
+}
+.section1__item { 
+    margin-bottom: 1rem;
+}
+.section1__item--video {
+    width: 100%
+}
+.section1__item--p {
+    text-align: left;
+}
+.section2__item {
+    margin-bottom: 1rem;
+}
+.section2__item--nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.txt-left  {
+    text-align: left;
+    margin: 0 1em;
+}
+.section2__item__a {
+    background-color: orange;
+    padding: 0.5em;
+    border-radius: 5px;
+    color: black;
+}
+.section2__item--ol {
+    list-style-type: decimal;
+    border: 1px solid darkblue;
+    margin: 1em;
+}
+.section2__item--ol__fs {
+    border: none;
+}
+.chapters {
+    display: none;
+    background-color: #8ab2e2;
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border-bottom: 2px solid peachpuff;
+
+}
+.choices-pos {
+    position: relative;
+    left: 2em;
+    padding-right: 0.5em;
+}
+
+
+@media (min-width:481px) {
+    .body__con {
+        display: flex;
+    }
+    .nav {
+        margin-top: 0;
+    }
+    .main {
+        margin: 1em;
+    }
+}
+@media (min-width:769px) {
+    .chapter-btn {
+        display: none;
+    }
+    .nav {
+        padding-top: 2em;
+    }
+    .nav,
+    .chapters {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin: auto;  
+    padding: 2em;
+    background-color: #8ab2e2;
+    margin: auto;
+}
+.footer-nav:hover,
+.footer-nav:focus,
+.footer__grid-item--partners__partner:hover,
+.footer__grid-item--partners__partner:focus {
+    background-color: #8ab2e2;
+    border-bottom: 3px solid black;
+}
+.footer__grid-item--follow__social:hover,
+.footer__grid-item--follow__social:focus {
+    background-color: black;
+}
+.footer__grid-item--partners {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "header header";
+}
+.footer__grid-item--follow__social {
+    padding: 3px;
+}
+.footer__grid-item {
+    padding: 1em;
+}
+.footer__grid-item--partners__header {
+    padding-top: 0;
+    grid-area: header;
+}
+
+@media screen and (orientation: landscape) and (min-width:768px) {
+  
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border: 7px solid beige;
+    }
+    .footer__grid-item--follow {
+        display: grid;
+        grid-template-columns: 50px 50px 50px;
+        grid-template-rows: 50px 50px 50px;
+    }
+    .footer__grid-item--follow__h {
+        grid-column: 1/-1;
+        grid-row: 1/2;
+    }
+   
+}

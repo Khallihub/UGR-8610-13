@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="signup page of smart learn site" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/signup.css">
+    <title>Sign Up | Smart Learn</title>
+  </head>
+  <body class="body" >
+    <div class="main-con">
+      <main class="main">
+        <a class="grid-item-main btn-exit" href="index.html">X</a>
+        <div class="login-signup grid-item-main">
+        <h1 class="smart">Smart Learn</h1>
+        <h2 class="login"><a href="login.html"> Login</a></h2>
+        <h2 class="signup"><a href="signup.html"> Signup</a></h2></div>
+        <form class="form grid-item-main" action="login.html" method="get" id="form">
+          <label class="display-none" for="email">Email</label>
+          <input class="form-item" id="email"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <div id="email-val"></div>
+
+          <label class="display-none" for="password">Password</label>
+          <input class="form-item" id="password"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <div id="password-val"></div>
+
+          <label class="display-none" for="Re-enter-password">Re-enter password</label>
+          <input class="form-item" id="Re-enter-password"
+            type="password"
+            name="Re-enter-password"
+            id="Re-enter-password"
+            placeholder="Re-enter Password"
+            required
+          />
+         <input class="form-item btn-login" type="submit" value="SIGN UP"></input>
+        </form>
+        <div class="hr-con">
+        <hr class="grid-item-main hr" />
+        <h3 class="grid-item-main">Or</h3>
+        <hr class="grid-item-main hr" /></div>
+        <div class="or-con">
+        <button class="grid-item-main or" title="sign up facebook">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="17.641"
+            height="32.071"
+            viewBox="0 0 17.641 32.071"
+          >
+            <path
+              id="facebook-f"
+              d="M38.441,17.478l.863-5.623h-5.4V8.205c0-1.538.754-3.038,3.17-3.038h2.453V.38A29.913,29.913,0,0,0,35.177,0c-4.443,0-7.348,2.693-7.348,7.569v4.286H22.89v5.623h4.939V31.071h6.079V17.478Z"
+              transform="translate(-22.39 0.5)"
+              fill="none"
+              stroke="#707070"
+              stroke-width="1"
+            />
+          </svg>
+        </button>
+        <button class="grid-item-main or" title="sign up with google">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="31.57"
+            height="32.071"
+            viewBox="0 0 31.57 32.071"
+          >
+            <path
+              id="google"
+              d="M30.57,23.9c0,8.864-6.07,15.172-15.034,15.172A15.536,15.536,0,0,1,15.536,8a14.94,14.94,0,0,1,10.418,4.066l-4.228,4.066c-5.531-5.337-15.817-1.328-15.817,7.4a9.731,9.731,0,0,0,9.628,9.81c6.152,0,8.457-4.41,8.82-6.7h-8.82V21.305h14.79A13.619,13.619,0,0,1,30.57,23.9Z"
+              transform="translate(0.5 -7.5)"
+              fill="none"
+              stroke="#707070"
+              stroke-width="1"
+            />
+          </svg>
+        </button>
+      </div>
+      </main>
+    </div>
+    <script src="javascript/signup.js"></script>
+
+  </body>
+</html>

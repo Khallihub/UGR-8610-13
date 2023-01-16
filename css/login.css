@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: whitesmoke;
+    border: none;
+}
+.body {
+    background: linear-gradient(purple,orange);
+}
+.main-con {
+    height: 100vh;
+    display: flex;
+}
+.grid-item-main {
+    margin-bottom: 1em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    max-width: 420px;
+    padding: 2em;
+    border: 2px solid black;
+    box-shadow: 1em -1em 1em 0.1em whitesmoke;
+}
+.btn-exit {
+    align-self: flex-end;
+    border: 1px solid black;
+    background-color: red;
+    padding: 0.1em 0.3em;
+    color: black;
+}
+.display-none {
+    display: none;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+
+}
+.form-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: left;
+    padding: 0.5em 1em;    
+    background-color: rgb(132, 0, 255);
+    color: whitesmoke;
+
+}
+::-webkit-input-placeholder { 
+    color: rgb(214, 203, 203);
+  }
+  ::-moz-placeholder { 
+    color: whitesmoke;
+  }
+  :-ms-input-placeholder { 
+    color: whitesmoke;
+  }
+  :-moz-placeholder { 
+    color: whitesmoke;
+}
+.btn-login {
+    margin: auto;
+    text-align: center;
+}
+.login-signup {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+    "smart smart"
+    "login signup";
+}
+.font-size-small {
+    font-size: 0.7em;
+    text-align: left;
+    padding: 0.5em;
+}
+.smart {
+    grid-area: smart;
+    padding-bottom: 0.5em;
+}
+.login {
+    grid-area: login;
+    border: 1px solid black;
+    border-bottom: 3px solid black;
+    margin-right: 0.5em;
+
+}
+.signup {
+    grid-area: signup;
+    border: 1px solid black;
+}
+.hr-con {
+    display: flex;
+    justify-content: space-between;
+}
+.hr {
+    color: black
+}
+.or-con {
+    display: flex;
+    justify-content: space-between;
+}
+.or{
+    padding: 0.3em 5em;
+    background-color: #ffa50080;
+}
+@media (max-width:480px) {
+    .or-con {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:297px) {
+    .or-con {
+        display: flex;
+        flex-direction: column;
+    }
+    .login-signup {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        align-items: center;
+    }
+    .login, .signup {
+        width: 100%;
+        margin: 0;
+    }
+    .or {
+        padding: 0;
+    }
+}
